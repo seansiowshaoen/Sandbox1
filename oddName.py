@@ -9,6 +9,6 @@ def print_name(name,num):
 def get_name():
     name=input("enter name")
     while len(name)<1:
-        name = input("Enter looper names>> ")
+        name = input("Enter looper names>>1 ")
         return name
 main()
